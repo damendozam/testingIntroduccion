@@ -1,0 +1,150 @@
+EESchema Schematic File Version 4
+LIBS:Hardware-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J?
+U 1 1 5EA0F83E
+P 6550 2150
+F 0 "J?" H 6600 3267 50  0000 C CNN
+F 1 "RPI" H 6600 3176 50  0000 C CNN
+F 2 "" H 6550 2150 50  0001 C CNN
+F 3 "~" H 6550 2150 50  0001 C CNN
+	1    6550 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bartolo:ADC U?
+U 1 1 5EA2095A
+P 7800 1350
+F 0 "U?" H 8150 1515 50  0000 C CNN
+F 1 "ADC" H 8150 1424 50  0000 C CNN
+F 2 "" H 7800 1350 50  0001 C CNN
+F 3 "" H 7800 1350 50  0001 C CNN
+	1    7800 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bartolo:ADC U?
+U 1 1 5EA21413
+P 7800 2050
+F 0 "U?" H 8150 2215 50  0000 C CNN
+F 1 "ADC" H 8150 2124 50  0000 C CNN
+F 2 "" H 7800 2050 50  0001 C CNN
+F 3 "" H 7800 2050 50  0001 C CNN
+	1    7800 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bartolo:ADC U?
+U 1 1 5EA21C8C
+P 7800 2900
+F 0 "U?" H 8150 3065 50  0000 C CNN
+F 1 "ADC" H 8150 2974 50  0000 C CNN
+F 2 "" H 7800 2900 50  0001 C CNN
+F 3 "" H 7800 2900 50  0001 C CNN
+	1    7800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bartolo:ADC U?
+U 1 1 5EA22155
+P 7850 3700
+F 0 "U?" H 8200 3865 50  0000 C CNN
+F 1 "ADC" H 8200 3774 50  0000 C CNN
+F 2 "" H 7850 3700 50  0001 C CNN
+F 3 "" H 7850 3700 50  0001 C CNN
+	1    7850 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bartolo:ADC U?
+U 1 1 5EA22661
+P 7850 4500
+F 0 "U?" H 8200 4665 50  0000 C CNN
+F 1 "ADC" H 8200 4574 50  0000 C CNN
+F 2 "" H 7850 4500 50  0001 C CNN
+F 3 "" H 7850 4500 50  0001 C CNN
+	1    7850 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Sensor_Temperature:TMP101 U?
+U 1 1 5EA24B6C
+P 10200 1650
+F 0 "U?" H 10644 1696 50  0000 L CNN
+F 1 "TMP101" H 10644 1605 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 10200 1300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/tmp101" H 10150 1650 50  0001 C CNN
+	1    10200 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x15 J?
+U 1 1 5EA254A2
+P 6600 4250
+F 0 "J?" H 6680 4292 50  0000 L CNN
+F 1 "CSI" H 6680 4201 50  0000 L CNN
+F 2 "" H 6600 4250 50  0001 C CNN
+F 3 "~" H 6600 4250 50  0001 C CNN
+	1    6600 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Bartolo:TPS54531 U?
+U 1 1 5EA2E286
+P 2050 1300
+F 0 "U?" H 2375 1465 50  0000 C CNN
+F 1 "TPS54531" H 2375 1374 50  0000 C CNN
+F 2 "" H 2050 1300 50  0001 C CNN
+F 3 "" H 2050 1300 50  0001 C CNN
+	1    2050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA2ED3C
+P 1550 1400
+F 0 "R?" V 1343 1400 50  0000 C CNN
+F 1 "R" V 1434 1400 50  0000 C CNN
+F 2 "" V 1480 1400 50  0001 C CNN
+F 3 "~" H 1550 1400 50  0001 C CNN
+	1    1550 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5EA2F918
+P 1800 1000
+F 0 "R?" H 1870 1046 50  0000 L CNN
+F 1 "R" H 1870 955 50  0000 L CNN
+F 2 "" V 1730 1000 50  0001 C CNN
+F 3 "~" H 1800 1000 50  0001 C CNN
+	1    1800 1000
+	1    0    0    -1  
+$EndComp
+$Sheet
+S 9750 4550 950  1300
+U 5EA37885
+F0 "ElectronicBacteria" 50
+F1 "ElectronicBacteria.sch" 50
+$EndSheet
+$Sheet
+S 9800 2500 1050 1300
+U 5EA37DF9
+F0 "ElectronicWater" 50
+F1 "ElectronicWater.sch" 50
+$EndSheet
+$EndSCHEMATC
